@@ -84,7 +84,7 @@ vulnerabilities_index = load_faiss_index("vulnerabilities.index", dim=embedding_
 # --------------------------------------------------------------------
 # GROQ MODEL
 # --------------------------------------------------------------------
-groq_api_key = "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"
+groq_api_key = "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"
 if not groq_api_key:
     raise RuntimeError("Missing GROQ_API_KEY (or GROQ_KEY) environment variable.")
 
